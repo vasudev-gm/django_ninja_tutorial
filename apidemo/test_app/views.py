@@ -9,7 +9,8 @@ from ninja import NinjaAPI, Schema
 from test_app.models import Department, Employee
 
 api_v1 = NinjaAPI()
-api_v2 = NinjaAPI(version='2.0')
+api_v2 = NinjaAPI(version="2.0")
+
 
 # Input Schemas(POST/PUT)
 class EmployeeIn(Schema):
@@ -18,11 +19,13 @@ class EmployeeIn(Schema):
     department_id: int = None
     birthdate: date = None
 
+
 class DepartmentIn(Schema):
     title: str
 
 
 # Output Schema(GET)
+
 
 class EmployeeOut(Schema):
     id: int
@@ -31,11 +34,14 @@ class EmployeeOut(Schema):
     department__title: str = None
     birthdate: date = None
 
+
 class DeptOut(Schema):
     id: int
     title: str
 
+
 # Create your views here.
+
 
 @api_v1.get("/add")
 def add(request, a: int, b: int) -> dict[str, int]:
@@ -53,6 +59,7 @@ def get_all_emps_departwise(request):
     depts = Department.objects.all().order_by("title")
     return depts
 
+
 @api_v2.get("/departments", response=List[DeptOut])
 async def get_all_emps_departwise_async(request):
     depts = Department.objects.all().order_by("title")
@@ -66,6 +73,7 @@ def get_all_details(request):
         "id", "first_name", "last_name", "department__title", "birthdate"
     )
     return qs
+
 
 @api_v2.get("/emp_dept", response=List[EmployeeOut])
 async def get_all_details_async(request):

@@ -10,5 +10,5 @@ PLTable==1.0.2
 pydantic==2.3.0
 pydantic_core==2.7.0
 sqlparse==0.4.4
-typing_extensions==4.7.1
+typing_extensions==4.8.0
 tzdata==2023.3

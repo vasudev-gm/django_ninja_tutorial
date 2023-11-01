@@ -23,6 +23,12 @@ env_file = find_dotenv(filename=".env", raise_error_if_not_found=True)
 # dotenv_path argument in load_dotenv
 load_environ = load_dotenv(encoding="utf-8", override=True,interpolate=True)
 
+# The code `if not load_environ: raise "Environment Variables not loaded!"` is checking if the
+# environment variables were successfully loaded using the `load_dotenv` function. If the
+# `load_dotenv` function returns `False`, it means that the environment variables were not loaded
+# properly from the `.env` file. In this case, the code raises an exception with the message
+# "Environment Variables not loaded!". This is done to ensure that the application does not continue
+# running without the necessary environment variables.
 if not load_environ:
     raise "Environment Variables not loaded!"
 

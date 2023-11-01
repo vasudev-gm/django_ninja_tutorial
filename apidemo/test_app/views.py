@@ -5,7 +5,6 @@ from asgiref.sync import sync_to_async
 from django.shortcuts import get_object_or_404
 from ninja import NinjaAPI, Schema
 
-# from apidemo.urls import api_v1, api_v2
 from test_app.models import Department, Employee
 
 api_v1 = NinjaAPI()

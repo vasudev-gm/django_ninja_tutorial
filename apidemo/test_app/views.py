@@ -15,8 +15,8 @@ api_v2 = NinjaAPI(version="2.0")
 class EmployeeIn(Schema):
     first_name: str
     last_name: str
-    department_id: int = None
-    birthdate: date = None
+    department_id: int
+    birthdate: date
 
 
 class DepartmentIn(Schema):
@@ -30,8 +30,8 @@ class EmployeeOut(Schema):
     id: int
     first_name: str
     last_name: str
-    department__title: str = None
-    birthdate: date = None
+    department__title: str
+    birthdate: date
 
 
 class DeptOut(Schema):
@@ -78,7 +78,7 @@ def create_employee(request, payload: EmployeeIn):
     :return: a dictionary with the key "id" and the value being the id of the created employee.
     """
     employee = Employee.objects.create(**payload.dict())
-    return {"id": employee.id}
+    return {"id": employee.id} # type: ignore
 
 
 @api_v1.get("/departments", response=List[DeptOut])
@@ -103,7 +103,7 @@ async def get_all_employees_departmentwise_async(request):
 
     :param request: The `request` parameter is likely an HTTP request object that is passed to the
     function. It could contain information about the client's request, such as headers, query
-    parameters, and request body. However, in the given code snippet, the `request` parameter is not
+    parameters, and request body. However, in the given code snippet, the `request` parameter is not()
     used, so it may not
     :return: a list of all the Department objects, ordered by their title.
     """

@@ -18,6 +18,7 @@ python-dotenv = "*"
 sqlparse = "==0.4.4"
 typing-extensions = "==4.9.0"
 tzdata = "*"
+granian = "*"
 
 [dev-packages]
 

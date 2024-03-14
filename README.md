@@ -1,7 +1,7 @@
 # django_ninja_tutorial
 Django Ninja with SQLite
 Basic CRUD API for Employees and Department using Django Ninja.
-Deployed using Granian
+Deployed using Granian Server
 # Docker Compose Commands
 
 ### Get running containers:

@@ -7,7 +7,9 @@ class Department(models.Model):
     title = models.CharField(max_length=100)
 
     def __str__(self) -> str:
-        return f"{self.title}"
+        model_name = self.__class__.__name__
+        fields_str = ", ".join((f"{field.name}={getattr(self, field.name)}" for field in self._meta.fields))
+        return f"{model_name}({fields_str})"
 
 # The Employee class represents an employee with attributes such as first name, last name, department,
 # and birthdate.
@@ -18,4 +20,6 @@ class Employee(models.Model):
     birthdate = models.DateField(null=True, blank=True)
 
     def __str__(self) -> str:
-        return f"{self.first_name} {self.last_name}"
+        model_name = self.__class__.__name__
+        fields_str = ", ".join((f"{field.name}={getattr(self, field.name)}" for field in self._meta.fields))
+        return f"{model_name}({fields_str})"

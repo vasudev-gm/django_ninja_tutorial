@@ -78,7 +78,7 @@ def create_employee(request, payload: EmployeeIn):
     :return: a dictionary with the key "id" and the value being the id of the created employee.
     """
     employee = Employee.objects.create(**payload.dict())
-    return {"id": employee.id} # type: ignore
+    return {"id": employee.id}  # type: ignore
 
 
 @api_v1.get("/departments", response=List[DeptOut])

@@ -8,8 +8,11 @@ class Department(models.Model):
 
     def __str__(self) -> str:
         model_name = self.__class__.__name__
-        fields_str = ", ".join((f"{field.name}={getattr(self, field.name)}" for field in self._meta.fields))
+        fields_str = ", ".join(
+            (f"{field.name}={getattr(self, field.name)}" for field in self._meta.fields)
+        )
         return f"{model_name}({fields_str})"
+
 
 # The Employee class represents an employee with attributes such as first name, last name, department,
 # and birthdate.
@@ -21,5 +24,7 @@ class Employee(models.Model):
 
     def __str__(self) -> str:
         model_name = self.__class__.__name__
-        fields_str = ", ".join((f"{field.name}={getattr(self, field.name)}" for field in self._meta.fields))
+        fields_str = ", ".join(
+            (f"{field.name}={getattr(self, field.name)}" for field in self._meta.fields)
+        )
         return f"{model_name}({fields_str})"

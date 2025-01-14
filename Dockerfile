@@ -36,8 +36,8 @@ RUN adduser \
 # Leverage a bind mount to requirements.txt to avoid having to copy them into
 # into this layer.
 RUN --mount=type=cache,target=/root/.cache/pip \
-    --mount=type=bind,source=requirement.txt,target=requirement.txt \
-    python -m pip install -r requirement.txt
+    --mount=type=bind,source=requirement.txt,target=requirements.txt \
+    python -m pip install -r requirements.txt
 
 # Switch to the non-privileged user to run the application.
 USER appuser

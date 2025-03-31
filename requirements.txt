@@ -12,7 +12,7 @@ pip==25.0.1; python_version >= '3.8'
 pltable==1.1.0
 pydantic==2.10.6; python_version >= '3.8'
 pydantic-core==2.27.2; python_version >= '3.8'
-python-dotenv==1.0.1; python_version >= '3.8'
+python-dotenv==1.1.0; python_version >= '3.8'
 sqlparse==0.5.3; python_version >= '3.8'
 typing-extensions==4.12.2; python_version >= '3.8'
 tzdata==2025.2; python_version >= '2'

@@ -8,7 +8,7 @@ django-ninja==1.4.1; python_version >= '3.7'
 granian==2.2.5; python_version >= '3.9'
 orjson==3.10.16; python_version >= '3.9'
 packaging==25.0; python_version >= '3.8'
-pip==25.0.1; python_version >= '3.8'
+pip==25.1; python_version >= '3.8'
 pltable==1.1.0
 pydantic==2.11.3; python_version >= '3.9'
 pydantic-core==2.33.1; python_version >= '3.9'

@@ -10,7 +10,7 @@ orjson==3.10.18; python_version >= '3.9'
 packaging==25.0; python_version >= '3.8'
 pip==25.1.1; python_version >= '3.9'
 pltable==1.1.0
-pydantic==2.11.5; python_version >= '3.9'
+pydantic==2.11.7; python_version >= '3.9'
 pydantic-core==2.33.2; python_version >= '3.9'
 python-dotenv==1.1.0; python_version >= '3.9'
 sqlparse==0.5.3; python_version >= '3.8'

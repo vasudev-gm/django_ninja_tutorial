@@ -1,0 +1,10 @@
+python:
+  - '**/*.py'
+tests:
+  - 'tests/**/*.py'
+requirements:
+  - 'requirements*.txt'
+docs:
+  - '**/*.md'
+ci:
+  - '.github/workflows/*.yml'

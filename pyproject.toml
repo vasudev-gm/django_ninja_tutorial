@@ -16,7 +16,7 @@ dependencies = [
     "packaging==25.0",
     "pip==25.2",
     "pltable==1.1.0",
-    "pydantic==2.11.7",
+    "pydantic==2.11.9",
     "pydantic-core==2.33.2",
     "python-dotenv==1.1.1",
     "sqlparse==0.5.3",

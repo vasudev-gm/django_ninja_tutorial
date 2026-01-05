@@ -30,9 +30,9 @@ django==6.0 \
     # via
     #   dj-ninja
     #   django-ninja
-django-ninja==1.5.1 \
-    --hash=sha256:135aaa1117dce8dfd7a1e80b4487a8cccee3a4182c3c8b562d08ea94e4d2cbdf \
-    --hash=sha256:6acda68a64d60934c6fdccb4d97c3ac7f02cfefd78a5d87ae053effe081b17c7
+django-ninja==1.5.2 \
+    --hash=sha256:1554bebc28e9bbc8412f49bae4698937781b54d828c84af30c40dfced407b8cb \
+    --hash=sha256:5faf09cf6e64298e822305c3f4b933608b4fce30643e36cc58f67660f20f4cac
     # via dj-ninja
 granian==2.6.0 \
     --hash=sha256:0041ba59e4b89818db1772ea677bb619f5e3030060dcb6c57e8a17d72dc6210b \

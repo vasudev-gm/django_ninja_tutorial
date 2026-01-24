@@ -1,6 +1,6 @@
 [project]
 name = "dj-ninja"
-version = "1.4.1"
+version = "1.4.2"
 description = "Django Ninja with SQLite"
 readme = "README.md"
 requires-python = ">=3.12"

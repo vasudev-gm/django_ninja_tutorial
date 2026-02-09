@@ -43,7 +43,7 @@ wheels = [
 
 [[package]]
 name = "dj-ninja"
-version = "1.4.4"
+version = "1.4.5"
 source = { virtual = "." }
 dependencies = [
     { name = "annotated-types" },

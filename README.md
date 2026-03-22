@@ -5,6 +5,25 @@ Django Ninja with SQLite
 Basic CRUD API for Employees and Department using Django Ninja.
 Deployed using Granian Server
 
+## Python Environment Setup (Local System)
+>
+> You can create an isolated virtual environment using Python 3.13 and install packages using pip
+or pipenv or uv.
+
+## UV commands to setup environment and run the project
+
+> uv venv -p 3.13 --python-preference managed
+> uv sync
+
+## UV command to upgrade python and packages
+
+> uv python upgrade
+> uv sync --upgrade
+
+## UV export to requirements.txt
+
+> uv export --format=requirements.txt --all-packages > .\requirements.txt
+
 ## Docker Compose Commands
 
 Get running containers

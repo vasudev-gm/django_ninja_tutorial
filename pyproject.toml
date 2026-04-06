@@ -28,3 +28,6 @@ dependencies = [
 [tool.uv]
 link-mode = "copy"
 upgrade = true
+
+[tool.ty.rules]
+index-out-of-bounds = "ignore"

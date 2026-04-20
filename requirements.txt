@@ -146,9 +146,9 @@ pip==26.0.1 \
 pltable==1.1.0 \
     --hash=sha256:dc8eb7cb9721a7090dc7a5976fbec7d3ef6b82a61f86c3b98700571a3f10401a
     # via dj-ninja
-pydantic==2.13.0 \
-    --hash=sha256:ab0078b90da5f3e2fd2e71e3d9b457ddcb35d0350854fbda93b451e28d56baaf \
-    --hash=sha256:b89b575b6e670ebf6e7448c01b41b244f471edd276cd0b6fe02e7e7aca320070
+pydantic==2.13.2 \
+    --hash=sha256:a525087f4c03d7e7456a3de89b64cd693d2229933bb1068b9af6befd5563694e \
+    --hash=sha256:b418196607e61081c3226dcd4f0672f2a194828abb9109e9cfb84026564df2d1
     # via
     #   dj-ninja
     #   django-ninja

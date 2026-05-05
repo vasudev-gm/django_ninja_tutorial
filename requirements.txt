@@ -24,9 +24,9 @@ colorama==0.4.6 \
     # via
     #   click
     #   dj-ninja
-django==6.0.4 \
-    --hash=sha256:14359c809fc16e8f81fd2b59d7d348e4d2d799da6840b10522b6edf7b8afc1da \
-    --hash=sha256:8cfa2572b3f2768b2e84983cf3c4811877a01edb64e817986ec5d60751c113ac
+django==6.0.5 \
+    --hash=sha256:9d58a7cb49244e74c8e161d5e403a46d6209f1009ba40f5a66d6aa0d0786a8f0 \
+    --hash=sha256:bc6d6872e98a2864c836e42edd644b362db311147dd5aa8d5b82ba7a032f5269
     # via
     #   dj-ninja
     #   django-ninja
@@ -139,9 +139,9 @@ packaging==26.2 \
     --hash=sha256:5fc45236b9446107ff2415ce77c807cee2862cb6fac22b8a73826d0693b0980e \
     --hash=sha256:ff452ff5a3e828ce110190feff1178bb1f2ea2281fa2075aadb987c2fb221661
     # via dj-ninja
-pip==26.1 \
-    --hash=sha256:4e8486d821d814b77319acb7b9e8bf5a4ee7590a643e7cb21029f209be8573c1 \
-    --hash=sha256:81e13ebcca3ffa8cc85e4deff5c27e1ee26dea0aa7fc2f294a073ac208806ff3
+pip==26.1.1 \
+    --hash=sha256:99cb1c2899893b075ff56e4ed0af55669a955b49ad7fb8d8603ecdaf4ed653fb \
+    --hash=sha256:d36762751d156a4ee895de8af39aa0abeeeb577f93a2eca6ab62467bbf0f8a78
     # via dj-ninja
 pltable==1.1.0 \
     --hash=sha256:dc8eb7cb9721a7090dc7a5976fbec7d3ef6b82a61f86c3b98700571a3f10401a

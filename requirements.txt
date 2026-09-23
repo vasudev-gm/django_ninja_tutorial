@@ -28,9 +28,9 @@ django==6.1.1 \
     # via
     #   dj-ninja
     #   django-ninja
-django-ninja==1.7.0 \
-    --hash=sha256:7a0ce06c978a42a808d9a9d7ba1cda383df8eea90040cfc232ad10b7d9024e0d \
-    --hash=sha256:f1a0f762c9810dabcb040fcff76c6e2f5d0cdb51b4a597799ee06b5df8481f3f
+django-ninja==1.7.1 \
+    --hash=sha256:2183ee5426a8c95bfabae1b7f60c471a56c48022296eaaf1cc54b00010b07ee6 \
+    --hash=sha256:61137e9fbb97ca15a92cdbfdcf9f6a738464b328c6cb11090faf17042035ec69
     # via dj-ninja
 granian==2.8.3 \
     --hash=sha256:031cfea8e03741311f6fee6cb3e95b77e57646045abfd38e8e32127e0118c5d1 \
